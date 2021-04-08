@@ -9,7 +9,7 @@ $headers = array(
 
     $memberid = $_GET["memberid"];
     //Set URL for get member details
-    $url = $urlPrefix.$account_id."/members/signup";
+    $url = $urlPrefix.$account_id."/members/add";
     $myvars = file_get_contents('php://input');
    
     $ch = curl_init($url);

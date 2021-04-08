@@ -184,7 +184,7 @@ jQuery(document).ready(function($) {
     const source = "updatedByTechServCustomForm";
     const fields = getFieldValues();
     const email = e;
-    const data = {email, ...fields, source, group_ids, signup_form_id, opt_in_confirmation};
+    const data = {email, fields:fields, source, group_ids, signup_form_id, opt_in_confirmation};
     const data_string = JSON.stringify(data)
     return data_string;
   }
