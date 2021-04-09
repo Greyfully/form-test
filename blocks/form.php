@@ -42,6 +42,11 @@
                      <label for="last_name" class="block text-sm font-medium text-gray-700">Last name</label>
                      <input type="text" name="last_name" id="last_name" autocomplete="family-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
                   </div>
+
+                  <div class="col-span-6 sm:col-span-3">
+                     <label for="grey-stepp" class="block text-sm font-medium text-gray-700">Grey Stepp</label>
+                     <input type="text" name="grey-stepp" id="grey-stepp" autocomplete="family-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                  </div>
    
                   <div class="col-span-6 sm:col-span-4">
                      <label for="email" class="block text-sm font-medium text-gray-700">Email address</label>

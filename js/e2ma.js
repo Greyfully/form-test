@@ -7,6 +7,8 @@ jQuery(document).ready(function($) {
     }, {
       'shortcut' : 'last_name'
     }, {
+      'shortcut' : 'grey-stepp'
+    }, {
       'shortcut' : 'subscriptions',
       'multiple_inputs' : true,
       'type': 'arr'

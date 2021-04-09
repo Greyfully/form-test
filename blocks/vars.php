@@ -28,5 +28,19 @@
         'column_order' => 1,
         'deleted_at' => NULL,
         'options' => NULL,
+    ),
+    2 => 
+    array (
+        'shortcut_name' => 'grey-stepp',
+        'display_name' => 'Grey Stepp',
+        'account_id' => 1807035,
+        'field_type' => 'text',
+        'required' => false,
+        'field_id' => 5067787,
+        'widget_type' => 'text',
+        'short_display_name' => NULL,
+        'column_order' => 3,
+        'deleted_at' => NULL,
+        'options' => NULL,
     )
     );
